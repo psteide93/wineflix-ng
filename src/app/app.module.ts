@@ -9,6 +9,11 @@ import { BannerComponent } from './banner/banner.component';
 import { MainNavigationComponent } from './main-navigation/main-navigation.component';
 import { PrimaryNavigationComponent } from './primary-navigation/primary-navigation.component';
 import { SecondaryNavigationComponent } from './secondary-navigation/secondary-navigation.component';
+import { MainImageComponent } from './main-image/main-image.component';
+import { DrinkAgainComponent } from './drink-again/drink-again.component';
+import { MainContentComponent } from './main-content/main-content.component';
+import { KeepDrinkingComponent } from './keep-drinking/keep-drinking.component';
+import { ControlsComponent } from './controls/controls.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,12 @@ import { SecondaryNavigationComponent } from './secondary-navigation/secondary-n
     BannerComponent,
     MainNavigationComponent,
     PrimaryNavigationComponent,
-    SecondaryNavigationComponent
+    SecondaryNavigationComponent,
+    MainImageComponent,
+    DrinkAgainComponent,
+    MainContentComponent,
+    KeepDrinkingComponent,
+    ControlsComponent
   ],
   imports: [
     BrowserModule,
