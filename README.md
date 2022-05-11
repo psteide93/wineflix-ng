@@ -1,5 +1,10 @@
 # WineFlix
 
+### Deployed Link
+https://tangerine-kangaroo-be517c.netlify.app/
+
+
+
 ![Wineflix demo](./wineflix.jpg)
 
 Refactor the HTML and CSS in `src/app/app.component.html` to use components.
