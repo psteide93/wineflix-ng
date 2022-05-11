@@ -4,7 +4,7 @@ import { wines } from '../drink-again-wines'
 @Component({
   selector: 'app-drink-again',
   templateUrl: './drink-again.component.html',
-  styleUrls: ['./drink-again.component.css']
+  styleUrls: ['./drink-again.component.css', '../category.css']
 })
 export class DrinkAgainComponent implements OnInit {
 

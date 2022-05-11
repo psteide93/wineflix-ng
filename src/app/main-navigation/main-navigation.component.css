@@ -1,0 +1,7 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
