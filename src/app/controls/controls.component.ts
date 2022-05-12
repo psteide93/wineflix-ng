@@ -6,14 +6,11 @@ import {faPlay, faInfoCircle} from '@fortawesome/free-solid-svg-icons'
   templateUrl: './controls.component.html',
   styleUrls: ['./controls.component.css']
 })
-export class ControlsComponent implements OnInit {
+export class ControlsComponent {
   faPlay = faPlay
   faInfoCircle = faInfoCircle
   title = 'angular-template'
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

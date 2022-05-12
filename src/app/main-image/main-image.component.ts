@@ -7,14 +7,12 @@ import { heroContent } from '../goliath';
   templateUrl: './main-image.component.html',
   styleUrls: ['./main-image.component.css']
 })
-export class MainImageComponent implements OnInit {
+export class MainImageComponent {
 
   heroContent = heroContent
 
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
 
 }

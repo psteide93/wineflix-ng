@@ -6,13 +6,11 @@ import { wines } from '../keep-drinking-wines'
   templateUrl: './keep-drinking.component.html',
   styleUrls: ['./keep-drinking.component.css', '../category.css']
 })
-export class KeepDrinkingComponent implements OnInit {
+export class KeepDrinkingComponent {
 
   wines = wines
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
 
 }
