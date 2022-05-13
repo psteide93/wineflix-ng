@@ -1,13 +1,4 @@
 @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@400;700&display=swap);
-.wine {
-  width: 300px;
-  margin-right: 4px;
-  position: relative;
-}
-.wine img {
-  border-radius: 4px;
-  height: 205px;
-}
 
 .hero-image {
   position: absolute;
@@ -17,21 +8,16 @@
   z-index: -1;
 }
 
-h1 {
-  font-family: Bebas Neue, cursive;
-  font-size: 36px;
-  letter-spacing: 1px;
-  margin-right: 32px;
-  color: #b81430;
-}
 .navigation-links,
 h1 {
   display: inline;
 }
+
 .navigation-links li {
   display: inline-block;
   margin-right: 18px;
 }
+
 .navigation-links li.active,
 .user-avatar {
   font-weight: 700;
@@ -46,9 +32,11 @@ h1 {
 .hero nav {
   padding: 18px 48px;
 }
+
 img {
   max-width: 100%;
 }
+
 a {
   color: inherit;
   text-decoration: none;

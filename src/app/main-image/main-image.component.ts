@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { heroContent } from '../goliath';
 
 
@@ -8,11 +8,5 @@ import { heroContent } from '../goliath';
   styleUrls: ['./main-image.component.css']
 })
 export class MainImageComponent {
-
   heroContent = heroContent
-
-
-  constructor() { }
-
-
 }

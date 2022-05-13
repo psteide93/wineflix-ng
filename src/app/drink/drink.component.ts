@@ -10,5 +10,4 @@ export class DrinkComponent{
   @Input() label!: string;
   @Input() isNew?: boolean;
   @Input() progress?: number;
-
 }

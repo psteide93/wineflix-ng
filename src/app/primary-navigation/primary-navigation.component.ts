@@ -13,10 +13,8 @@ export class PrimaryNavigationComponent implements OnInit {
     { name: 'Reds', isActive: false },
     { name: 'Blends', isActive: false },
   ];
-
+  
   activeLink?: Link
-
-  constructor() {}
 
   ngOnInit(): void {
     this.navLinks.forEach((link) => {

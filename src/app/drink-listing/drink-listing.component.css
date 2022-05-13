@@ -12,3 +12,7 @@
   flex-flow: row nowrap;
   overflow-x: auto;
 }
+
+.category li{
+  list-style:none;
+}
