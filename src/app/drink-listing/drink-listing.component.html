@@ -1,0 +1,26 @@
+<section class="category">
+  <h2>Drink Again</h2>
+  <ul>
+    <li *ngFor="let wine of wines">
+      <app-drink
+      *ngIf="wine.isFinished"
+      [imageUrl]="wine.imageUrl"
+      [label]="wine.label"
+      [isNew]="wine.isNew"
+      ></app-drink>
+    </li>
+  </ul>
+</section>
+<section class="category">
+  <h2>Keep Drinking</h2>
+  <ul>
+    <li *ngFor="let wine of wines">
+      <app-drink
+      *ngIf="wine.progress"
+      [imageUrl]="wine.imageUrl"
+      [label]="wine.label"
+      [progress]="wine.progress"
+      ></app-drink>
+    </li>
+  </ul>
+</section>

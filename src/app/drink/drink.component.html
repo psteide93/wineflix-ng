@@ -1,0 +1,11 @@
+
+    <div class="wine">
+      <img src={{imageUrl}} alt={{label}}/>
+      <span *ngIf="isNew===true" class="new-badge">New!</span>
+    </div>
+    <app-progress-bar
+    *ngIf="progress"
+    [progress]="progress"
+    ></app-progress-bar>
+
+

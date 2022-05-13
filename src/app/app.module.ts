@@ -14,6 +14,9 @@ import { DrinkAgainComponent } from './drink-again/drink-again.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { KeepDrinkingComponent } from './keep-drinking/keep-drinking.component';
 import { ControlsComponent } from './controls/controls.component';
+import { DrinkComponent } from './drink/drink.component';
+import { DrinkListingComponent } from './drink-listing/drink-listing.component';
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { ControlsComponent } from './controls/controls.component';
     DrinkAgainComponent,
     MainContentComponent,
     KeepDrinkingComponent,
-    ControlsComponent
+    ControlsComponent,
+    DrinkComponent,
+    DrinkListingComponent,
+    ProgressBarComponent
   ],
   imports: [
     BrowserModule,

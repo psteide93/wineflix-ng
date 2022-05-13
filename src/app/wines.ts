@@ -1,4 +1,4 @@
-export const wines = [{
+export const WINES = [{
   id: 1,
   imageUrl: '/assets/red-wine.jpg',
   isNew: true,
@@ -40,4 +40,45 @@ export const wines = [{
   id: 8,
   imageUrl: '/assets/red-wine.jpg',
   label: 'Wine',
-  isFinished: true, }]
+  isFinished: true,
+}, {
+  id: 1,
+  imageUrl: '/assets/red-wine.jpg',
+  progress: 22,
+  label: 'Wine',
+}, {
+  id: 2,
+  imageUrl: '/assets/red-wine.jpg',
+  progress: 75,
+  label: 'Wine',
+}, {
+  id: 3,
+  imageUrl: '/assets/red-wine.jpg',
+  progress: 15,
+  label: 'Wine',
+}, {
+  id: 4,
+  imageUrl: '/assets/red-wine.jpg',
+  progress: 10,
+  label: 'Wine',
+}, {
+  id: 5,
+  imageUrl: '/assets/red-wine.jpg',
+  progress: 2,
+  label: 'Wine',
+}, {
+  id: 6,
+  imageUrl: '/assets/red-wine.jpg',
+  progress: 95,
+  label: 'Wine',
+}, {
+  id: 7,
+  imageUrl: '/assets/red-wine.jpg',
+  progress: 44,
+  label: 'Wine',
+}, {
+  id: 8,
+  imageUrl: '/assets/red-wine.jpg',
+  progress: 23,
+  label: 'Wine',
+}];
